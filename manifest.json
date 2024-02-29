@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Daily Shiurim Auto Scroll",
+    "version": "1.0",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://he.chabad.org/dailystudy/*"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ]
+}
