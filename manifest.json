@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Daily Shiurim Auto Scroll",
+    "name": "Chitas Full Screen",
     "version": "1.0",
     "permissions": [
         "activeTab"
