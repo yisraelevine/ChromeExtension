@@ -2,9 +2,7 @@
     "manifest_version": 3,
     "name": "Chitas Full Screen",
     "version": "1.0",
-    "permissions": [
-        "activeTab"
-    ],
+    "permissions": [],
     "content_scripts": [
         {
             "matches": [
