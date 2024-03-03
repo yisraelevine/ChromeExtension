@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "Chitas Full Screen",
-    "version": "1.1",
-    "description": "Enables fullscreen mode for Chitas study pages on Chabad.org.",
+    "version": "1.2",
+    "description": "Optimize your Daily Chitas learning experience on he.Chabad.org with our Chrome extension! \nEnjoy fullscreen reading and uninterrupted focus. \nSimply install the extension, navigate to the Daily Chitas reading, \nand click on the study text to enter fullscreen mode. \nNo distractions, just pure immersion. \nTry it now!",
     "permissions": [],
     "content_scripts": [
         {
