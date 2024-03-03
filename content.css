@@ -1,0 +1,36 @@
+/* Apply styles only when in fullscreen mode */
+:root:fullscreen {
+    /* Ensure scrollbar appears when needed */
+    scrollbar-gutter: auto !important;
+}
+
+/* Styles for body in fullscreen mode */
+:root:fullscreen body {
+    /* Hide overflow to prevent scrolling */
+    overflow: hidden;
+}
+
+/* Styles for elements within fullscreen mode */
+:root:fullscreen .study-element {
+    /* Fixed positioning */
+    position: fixed;
+    /* Occupy full viewport */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* Allow scrolling within the element */
+    overflow: auto;
+    /* Background color */
+    background-color: white;
+    /* Padding for content */
+    padding: 20px;
+    /* Ensure element appears above other content */
+    z-index: 11;
+}
+
+/* Style all child elements within .study-element */
+:root:fullscreen .study-element * {
+    /* Increase font size for better readability */
+    font-size: 50px !important;
+}

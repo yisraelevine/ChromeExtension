@@ -1,7 +1,8 @@
 {
     "manifest_version": 3,
     "name": "Chitas Full Screen",
-    "version": "1.0",
+    "version": "1.1",
+    "description": "Enables fullscreen mode for Chitas study pages on Chabad.org.",
     "permissions": [],
     "content_scripts": [
         {
@@ -9,7 +10,10 @@
                 "https://he.chabad.org/dailystudy/*"
             ],
             "js": [
-                "script.js"
+                "content.js"
+            ],
+            "css": [
+                "content.css"
             ]
         }
     ]
