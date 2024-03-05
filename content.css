@@ -1,36 +1,42 @@
-/* Apply styles only when in fullscreen mode */
-:root:fullscreen {
-    /* Ensure scrollbar appears when needed */
-    scrollbar-gutter: auto !important;
-}
+/* fullscreen mode Styles */
 
-/* Styles for body in fullscreen mode */
-:root:fullscreen body {
-    /* Hide overflow to prevent scrolling */
+/* :root styles */
+:root:fullscreen {
+    /* Hide scrollbar */
+    scrollbar-gutter: auto !important;
     overflow: hidden;
 }
 
-/* Styles for elements within fullscreen mode */
+/* .study-element styles */
 :root:fullscreen .study-element {
-    /* Fixed positioning */
-    position: fixed;
     /* Occupy full viewport */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    /* Allow scrolling within the element */
+    /* Allow scrolling */
     overflow: auto;
     /* Background color */
     background-color: white;
-    /* Padding for content */
-    padding: 20px;
-    /* Ensure element appears above other content */
+    /* Padding */
+    padding: 28px;
+    /* Over others */
     z-index: 11;
 }
 
-/* Style all child elements within .study-element */
+/* .study-element children styles */
 :root:fullscreen .study-element * {
-    /* Increase font size for better readability */
+    /* Font size */
     font-size: 54px !important;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+
+    /* .study-element styles */
+    :root:fullscreen .study-element {
+        /* Inversion */
+        filter: invert(90%);
+    }
 }

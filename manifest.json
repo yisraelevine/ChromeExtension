@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Chitas Full Screen",
-    "version": "1.2.1",
-    "description": "Enhance Daily Chitas on he.Chabad.org with our Chrome extension! Enjoy fullscreen reading and focused study.",
+    "name": "Daily Shiurim Fullscreen",
+    "version": "1.3.0",
+    "description": "Makes Daily Shiurim Fullscreen on click",
     "permissions": [],
     "content_scripts": [
         {
