@@ -29,6 +29,8 @@
 :root:fullscreen .study-element * {
     /* Font size */
     font-size: 54px !important;
+    /* Reset line height to default */
+    line-height: initial !important;
 }
 
 /* Dark mode styles */
@@ -39,4 +41,5 @@
         /* Inversion */
         filter: invert(90%);
     }
+
 }
